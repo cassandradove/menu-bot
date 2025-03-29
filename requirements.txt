@@ -1,5 +1,3 @@
-discord
-os
-asyncio
+discord.py
 flask
-dotenv
+python-dotenv
