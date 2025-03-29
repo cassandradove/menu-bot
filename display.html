@@ -17,7 +17,7 @@
     <script>
         async function fetchLatestMessage() {
             try {
-            const response = await fetch("menu-bot.railway.internal"); // things might get messed up here
+            const response = await fetch("menu-bot-production.up.railway.app"); // things might get messed up here
             const data = await response.json();
         
             document.getElementById("message-content").textContent = data.message;
