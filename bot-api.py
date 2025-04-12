@@ -41,6 +41,7 @@ def get_latest_message():
     """API endpoint to return the latest message."""
     return jsonify(latest_message)
 
+@app.route('/')
 def run_discord_bot():
     """Runs the Discord bot."""
     loop = asyncio.new_event_loop()
